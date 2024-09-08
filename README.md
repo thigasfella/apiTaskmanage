@@ -16,12 +16,12 @@ Esta é a API para o projeto Task Management, que gerencia tarefas de usuários 
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/usuario/taskManagement.git
+    git clone https://github.com/thigasfella/apiTaskmanage.git
     ```
 
 2. Acesse o diretório do projeto:
     ```bash
-    cd taskManagement
+    cd apiTaskManagement
     ```
 
 3. Instale as dependências:
@@ -31,20 +31,14 @@ Esta é a API para o projeto Task Management, que gerencia tarefas de usuários 
 
 4. Configure as variáveis de ambiente no arquivo `.env`:
     ```bash
-    SECRET=SuaChaveSecreta
-    PORT=3001
-    DB_USER=seuUsuarioPostgres
-    DB_PASSWORD=suaSenhaPostgres
-    DB_HOST=localhost
-    DB_PORT=5432
-    DB_DATABASE=nomeDoBancoDeDados
+    POSTGRES_URL=UrlDoSeuBancoDeDados
     ```
 
 ## Executando o Servidor
 
 1. Inicie o servidor de desenvolvimento:
     ```bash
-    npm start
+    npm run dev
     ```
 
 2. O servidor estará disponível em `http://localhost:3001`.
